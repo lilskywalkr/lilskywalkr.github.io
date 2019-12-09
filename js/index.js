@@ -107,5 +107,7 @@ container.addEventListener('click', removeNote, false);
 newNoteButton.addEventListener('click', function() {
 
   // checks if the value of the field is not empty
-  if (!!noteField.value) newNote();
+  if (!!noteField.value)
+    newNote()
+    noteField.value = '';
 }, false);
