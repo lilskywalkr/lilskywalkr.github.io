@@ -120,7 +120,6 @@ button:hover {
   transition: 300ms ease-in-out;
   border-radius: 20px;
   margin: 15px auto;
-  /*user-select: none;*/
   animation: note-appears 0.5s ease-in-out;
 }
 
