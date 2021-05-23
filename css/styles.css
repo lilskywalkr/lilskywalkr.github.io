@@ -96,7 +96,6 @@ button:hover {
   margin-right: 25px;
   border-radius: 20px;
   overflow-y: scroll;
-  user-select: none;
 }
 
 .result-container::-webkit-scrollbar {
